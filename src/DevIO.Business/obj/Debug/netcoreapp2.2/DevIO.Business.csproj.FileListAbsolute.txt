@@ -1,7 +1,6 @@
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.deps.json
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.dll
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\bin\Debug\netcoreapp2.2\DevIO.Business.pdb
-C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csprojAssemblyReference.cache
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfoInputs.cache
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.AssemblyInfo.cs
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.Business\obj\Debug\netcoreapp2.2\DevIO.Business.csproj.CoreCompileInputs.cache
