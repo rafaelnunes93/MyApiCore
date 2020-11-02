@@ -35,23 +35,8 @@ namespace DevIO.API
             });
 
             services.AddAutoMapper(typeof(Startup));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.Configure<ApiBehaviorOptions>(options => 
-            {
-                options.SuppressModelStateInvalidFilter = true;
-
-
-            });
-
-            services.AddCors(options =>
-            {
-                options.AddPolicy("Development",
-                    builder => builder.AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials());
-            });
+            services.WebApiConfig();
 
             services.ResolveDependencies();
         }
@@ -69,9 +54,9 @@ namespace DevIO.API
                 app.UseHsts();
             }
 
-            app.UseCors("Development");
-            app.UseHttpsRedirection();
-            app.UseMvc();
+
+            app.UseMvcConfiguration();
+         
         }
     }
 }
