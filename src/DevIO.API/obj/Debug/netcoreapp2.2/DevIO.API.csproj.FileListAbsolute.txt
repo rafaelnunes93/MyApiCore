@@ -13,7 +13,6 @@ C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\bin\Debug\netcoreapp
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.csprojAssemblyReference.cache
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.AssemblyInfoInputs.cache
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.AssemblyInfo.cs
-C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.csproj.CoreCompileInputs.cache
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.RazorAssemblyInfo.cache
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.RazorAssemblyInfo.cs
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.RazorTargetAssemblyInfo.cache
@@ -21,3 +20,4 @@ C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.dll
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.pdb
 C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.genruntimeconfig.cache
+C:\Users\rafae\source\repos\MinhaApiCompleta2\src\DevIO.API\obj\Debug\netcoreapp2.2\DevIO.API.csproj.CoreCompileInputs.cache

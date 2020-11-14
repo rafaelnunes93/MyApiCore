@@ -1,4 +1,6 @@
-﻿using DevIO.API.Extensions;
+﻿using DevIO.API.Controller;
+using DevIO.API.V1.Controllers;
+using DevIO.API.Extensions;
 using DevIO.API.Models;
 using DevIO.Business.Intefaces;
 using Microsoft.AspNetCore.Identity;
@@ -13,9 +15,10 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DevIO.API.Controllers
+namespace DevIO.API.V1.Controllers
 {
-    [Route("api")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}")]
     public class AuthController : MainController
     {
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -23,8 +26,9 @@ namespace DevIO.API.Controllers
         private readonly AppSettings _appSettings;
 
         public AuthController(INotificador notificador, UserManager<IdentityUser> userManager,
-                                                         SignInManager<IdentityUser> signInManager, 
-                                                        IOptions<AppSettings> appSettings) : base(notificador)
+                                                         SignInManager<IdentityUser> signInManager,
+                                                        IOptions<AppSettings> appSettings,
+                                                        IUser user) : base(notificador, user)
         {
             _userManager = userManager;
             _signInManager = signInManager;

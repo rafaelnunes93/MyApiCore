@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DevIO.API.Controller;
 using DevIO.API.Extensions;
 using DevIO.API.ViewModels;
 using DevIO.Business.Intefaces;
@@ -9,10 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DevIO.API.Controllers
+namespace DevIO.API.V1.Controllers
 {
     [Authorize]
-    [Route("api/fornecedores")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/fornecedores")]
     public  class FornecedoresController : MainController
     {
         private readonly IFornecedorRepository _fornecedorRepository;
@@ -24,11 +26,13 @@ namespace DevIO.API.Controllers
         public FornecedoresController(IFornecedorRepository fornecedorRepository,
                                         IMapper mapper, IFornecedorService fornecedorService,
                                         IEnderecoRepository enderecoRepository,
-                                        INotificador notificador) : base(notificador)
+                                        INotificador notificador,
+                                        IUser user) : base(notificador, user)
         {
             _fornecedorRepository = fornecedorRepository;
             _mapper = mapper;
             _fornecedorService = fornecedorService;
+            _enderecoRepository = enderecoRepository;
         }
 
         [AllowAnonymous]
